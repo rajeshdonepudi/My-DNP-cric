@@ -122,7 +122,7 @@ function myFunction() {
 <%
     Dim serializer As New System.Web.Script.Serialization.JavaScriptSerializer()
     Dim wc As New Net.WebClient()
-    wc.Headers.add("apikey", "KGIwAUwi4cboCKeY5l0YwB2iEq53 ")
+    wc.Headers.add("apikey", " ")
 
     Dim cricketMatches As Object
     cricketMatches = Me.Cache.Get("matches")
